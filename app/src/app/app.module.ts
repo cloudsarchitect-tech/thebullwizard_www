@@ -10,6 +10,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { WhyUsComponent } from './why-us/why-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     HomePageComponent,
     ContactUsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    WhyUsComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,7 @@ import { FooterComponent } from './footer/footer.component';
       {path: 'about-us', component: AboutUsComponent },
       {path: '', component: HomePageComponent },
       {path: 'contact-us', component: ContactUsComponent },
+      {path: 'why-us', component: WhyUsComponent },
       {path: '**', component: HomePageComponent },
     ]),
   ],
