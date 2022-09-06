@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+.logo-text{
+    font-family: 'uncial antiqua' !important;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 32px;
+    }
+.txt-white{
+    color: #ffffff !important;
+}
+@media only screen and (max-width: 576px) {
+ .logo-text{
+    font-size: 22px;
+ } 
+}
+.content-space-b2w{
+    justify-content: space-between !important;
+}
+.bg-white{
+    background-color: #ffffff !important;
+}
+.txt-black{
+    color: #000000;
+}
