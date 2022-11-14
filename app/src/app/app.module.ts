@@ -11,6 +11,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { WhyUsComponent } from './why-us/why-us.component';
+import { CoursesComponent } from './courses/courses.component';
+import { SideIconsComponent } from './side-icons/side-icons.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,16 @@ import { WhyUsComponent } from './why-us/why-us.component';
     ContactUsComponent,
     HeaderComponent,
     FooterComponent,
-    WhyUsComponent
+    WhyUsComponent,
+    CoursesComponent,
+    SideIconsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     RouterModule.forRoot([
+      {path: 'courses', component: CoursesComponent },
       {path: 'about-us', component: AboutUsComponent },
       {path: '', component: HomePageComponent },
       {path: 'contact-us', component: ContactUsComponent },
